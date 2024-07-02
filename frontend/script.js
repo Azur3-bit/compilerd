@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
         lineNumbers: true,
         mode: 'text/x-c++src',
-        theme: 'solarized dark'  // Initialize with solarized dark theme
+        theme: 'solarized dark'  
     });
 
     document.getElementById('language').addEventListener('change', function() {

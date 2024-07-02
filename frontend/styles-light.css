@@ -2,22 +2,22 @@ body, html {
     height: 100vh;
     width: 100vw;
     margin: 0;
-    padding: 0; /* Remove any padding */
+    padding: 0;   
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fdf6e3;  /* Solarized Light background */
+    background-color: #fdf6e3;    
     font-family: 'Arial', sans-serif;
-    color: #657b83;  /* Solarized Light text */
-    overflow: hidden;  /* Prevent scrolling */
+    color: #657b83;   
+    overflow: hidden;    
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
-    width: 100vw; /* Fill the entire width */
-    height: 100vh; /* Fill the entire height */
-    background-color: #eee8d5;  /* Solarized Light container */
+    width: 100vw;   
+    height: 100vh;   
+    background-color: #eee8d5;    
     overflow: hidden;
 }
 
@@ -25,21 +25,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #93a1a1;  /* Solarized Light header */
-    padding: 10px 0; /* Adjust padding for header */
-    color: #073642;  /* Solarized Dark text for header */
+    background-color: #93a1a1;    
+    padding: 10px 0;   
+    color: #073642;    
 }
 
 .Kalvium-image {
-    height: 40px;  /* Adjust the height as needed */
-    margin-right: 10px;  /* Add margin for spacing */
+    height: 40px;    
+    margin-right: 10px;    
 }
 
 .toolbar {
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
-    background-color: #93a1a1;  /* Solarized Light toolbar */
+    background-color: #93a1a1;    
 }
 
 .select-group {
@@ -65,43 +65,43 @@ select, button {
 }
 
 select {
-    background-color: #268bd2;  /* Solarized Blue */
+    background-color: #268bd2;    
     color: white;
 }
 
 button {
-    background-color: #268bd2;  /* Solarized Blue */
+    background-color: #268bd2;    
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #2aa198;  /* Solarized Cyan */
+    background-color: #2aa198;    
 }
 
 .container {
     display: flex;
     flex: 1;
-    height: calc(100vh - 60px); /* Adjust height to fill space minus header height */
+    height: calc(100vh - 60px);   
 }
 
 .editor-container, .output-container {
     flex: 1;
-    padding: 0; /* Remove padding */
+    padding: 0;   
 }
 
 .CodeMirror {
     height: 100%;
-    background-color: #fdf6e3;  /* Solarized Light background */
-    color: #657b83;  /* Solarized Light text */
+    background-color: #fdf6e3;    
+    color: #657b83;   
     font-size: 1.15rem;
-    border-right: 1px solid #93a1a1;  /* Solarized Light border */
+    border-right: 1px solid #93a1a1;    
 }
 
 .output-container {
-    background-color: #eee8d5;  /* Solarized Light output */
-    color: #657b83;  /* Solarized Light text */
+    background-color: #eee8d5;    
+    color: #657b83;   
     font-size: 1.5rem;
     overflow: auto;
 }
